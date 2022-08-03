@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator - By Kenul Weerathunga Coding</title>
+    <!-- Link The Css File -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link For Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@700&family=Mitr&family=Prompt&family=Roboto:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="descibe">
+        <h1>Love Calculator</h1>
+        <p>Hey there , this is an love calculator which you can insert your & your loves name , so a random love score will create for you and also donn't be upset if this score will low because this is random picking system so it doesn't make any sence that how much you love eachother but just enjoy the game ! </p>
+    </div>
+    <div class="name-adding-form">
+        <h3>Your Name : <input class = "input-text " id="yourNameText" type="text"></h3>
+        <h4>Lover Name : <input class = "input-text " id="loverNameText" type="text"></h4>
+        <input  onclick='document.getElementById("lovescoremessage").innerHTML =  "Your Love Score is " + finalLoveScoreOfBoth + "%" ;' onclick='document.getElementById("paragraph-comment").style.display = "block";' class="hero-btn" type="button" value="Ckeck The Love Score">
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- The Result Of The Love Score  -->
+  <div class="love-score-result">
+
+<h1 id="lovescoremessage">Your Love Score Is Not Available Yet ! </h2>
+<p id="paragraph-comment" class="para-comment"></p>
+  </div>
+    <script src="index.js"></script>
+</body>
+</html>

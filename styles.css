@@ -1,0 +1,79 @@
+.descibe h1 {
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    color: #38baa7;
+}
+.descibe p {
+    font-family: 'Prompt', sans-serif;
+    color: #1d9180;
+}
+.descibe {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+
+}
+/* Form Of Both People's Detais  */
+
+.name-adding-form {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    left: 300px;
+}
+.name-adding-form h3,h4 {
+    color: #086e5e;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+
+
+}
+.input-text {
+    height: 28px;
+    font-size: 25px;
+    border: 1px solid #086e5e;
+    color: #1d9180;
+
+ 
+}
+.hero-btn {
+    background-color: #086e5e;
+    color: #fff;
+    font-size: 19px;
+    padding: 5px 25px 5px 25px;
+    font-family: 'Prompt', sans-serif;
+    border: none;
+    position: relative;
+    left: 170px;
+    border-radius: 8px;
+}
+.hero-btn:hover {
+    background-color: #1d9180;
+
+}
+/* Result Of The Love Score  */
+.love-score-result {
+    background-color: #086e5e;
+    height: 14vh;
+    width: 75%;
+    text-align: center;
+   margin: auto;
+   border-radius: 10px;
+   padding: 30px 0px;
+   
+
+}
+.love-score-result h1 {
+    font-family: 'Mitr', sans-serif;
+    color:#36ebd0;
+}
+.love-score-result p {
+    font-family: 'Prompt', sans-serif;
+    color: #fff;
+}
+/* Comment For Eachother  */
+
+.para-comment {
+    display: none;
+}
